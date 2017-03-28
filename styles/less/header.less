@@ -1,0 +1,41 @@
+@import "colors";
+
+.header {
+  &-box {
+    width: 1170px;
+    padding: 15px 0;
+    margin:  0 auto;
+  }
+
+  &-logo {
+    position: relative;
+    color: @pink;
+    font: 32px/1 'Lobster', cursive;
+
+    &:hover {
+      color: @pink;
+      text-decoration: none;
+    }
+
+    &-top {
+      display: block;
+    }
+
+    &-bottom {
+      display: block;
+      position: absolute;
+      bottom: -26px;
+      left: 2px;
+    }
+  }
+
+  &-smallMenu {
+    line-height: 65px;
+  }
+
+  &-nav {
+    background: @grey;
+    color: #fff;
+    text-align: center;
+  }
+}

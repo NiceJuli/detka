@@ -1,0 +1,53 @@
+.header-box {
+  width: 1170px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+.header-logo {
+  position: relative;
+  color: #ef5090;
+  font: 32px/1 'Lobster', cursive;
+}
+.header-logo:hover {
+  color: #ef5090;
+  text-decoration: none;
+}
+.header-logo-top {
+  display: block;
+}
+.header-logo-bottom {
+  display: block;
+  position: absolute;
+  bottom: -26px;
+  left: 2px;
+}
+.header-smallMenu {
+  line-height: 65px;
+}
+.header-nav {
+  background: #4d4d4d;
+  color: #fff;
+  text-align: center;
+}
+.phone {
+  line-height: 65px;
+}
+.phone-number,
+.phone-number:hover,
+.phone-number:focus {
+  font-size: 28px;
+  text-decoration: none;
+  color: #333333;
+}
+.menuSmall {
+  margin: 0;
+  padding: 0;
+}
+.menuSmall-item {
+  display: inline-block;
+  margin-left: 15px;
+}
+.menuSmall-item a {
+  font-size: 15px;
+  color: #727272;
+}

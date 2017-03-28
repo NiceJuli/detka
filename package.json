@@ -1,0 +1,20 @@
+{
+  "name": "detka",
+  "version": "1.0.0",
+  "description": "dress for rent",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiceJuli/detka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiceJuli/detka/issues"
+  },
+  "homepage": "https://github.com/NiceJuli/detka#readme"
+}

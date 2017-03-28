@@ -1,3 +1,5 @@
+@import "colors";
+
 .menuSmall {
   margin: 0;
   padding: 0;
@@ -8,7 +10,32 @@
 
     & a {
       font-size: 15px;
-      color: #727272;
+      color: #fff;
+    }
+  }
+}
+
+.menuMain {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+  &-item {
+    display: inline-block;
+    text-align: left;
+
+    &-name {
+      display: block;
+      height: 43px;
+      padding: 0 18px;
+      color: #333;
+      transition: all 0.3s ease-in-out;
+      font: 20px/43px 'Fira Mono', sans-serif;
+
+      &:hover {
+        color: #333;
+        text-decoration: none;
+      }
     }
   }
 }

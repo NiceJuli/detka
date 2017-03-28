@@ -1,10 +1,26 @@
 @import "colors";
 
 .header {
+
   &-box {
-    width: 1170px;
-    padding: 15px 0;
+    width: 1064px;
+    padding: 10px 0;
     margin:  0 auto;
+    white-space: nowrap;
+
+    &--blue {
+      background: @darkBlue;
+      color: #fff;
+    }
+  }
+  
+  &-inline {
+    display: inline-block;
+    vertical-align: middle;
+
+    &--left {
+      margin-right: 50px;
+    }
   }
 
   &-logo {
@@ -12,7 +28,7 @@
     color: @pink;
     font: 32px/1 'Lobster', cursive;
 
-    &:hover {
+    &:hover, &:focus {
       color: @pink;
       text-decoration: none;
     }
@@ -23,9 +39,6 @@
 
     &-bottom {
       display: block;
-      position: absolute;
-      bottom: -26px;
-      left: 2px;
     }
   }
 
@@ -34,8 +47,7 @@
   }
 
   &-nav {
-    background: @grey;
-    color: #fff;
+    color: #333;
     text-align: center;
   }
 }

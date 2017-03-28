@@ -1,15 +1,28 @@
 .header-box {
-  width: 1170px;
-  padding: 15px 0;
+  width: 1064px;
+  padding: 10px 0;
   margin: 0 auto;
+  white-space: nowrap;
+}
+.header-box--blue {
+  background: #2c3e50;
+  color: #fff;
+}
+.header-inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header-inline--left {
+  margin-right: 50px;
 }
 .header-logo {
   position: relative;
-  color: #ef5090;
+  color: #EF5090;
   font: 32px/1 'Lobster', cursive;
 }
-.header-logo:hover {
-  color: #ef5090;
+.header-logo:hover,
+.header-logo:focus {
+  color: #EF5090;
   text-decoration: none;
 }
 .header-logo-top {
@@ -17,27 +30,23 @@
 }
 .header-logo-bottom {
   display: block;
-  position: absolute;
-  bottom: -26px;
-  left: 2px;
 }
 .header-smallMenu {
   line-height: 65px;
 }
 .header-nav {
-  background: #4d4d4d;
-  color: #fff;
+  color: #333;
   text-align: center;
 }
 .phone {
-  line-height: 65px;
+  line-height: 45px;
 }
 .phone-number,
 .phone-number:hover,
 .phone-number:focus {
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
-  color: #333333;
+  color: #fff;
 }
 .menuSmall {
   margin: 0;
@@ -49,5 +58,26 @@
 }
 .menuSmall-item a {
   font-size: 15px;
-  color: #727272;
+  color: #fff;
+}
+.menuMain {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.menuMain-item {
+  display: inline-block;
+  text-align: left;
+}
+.menuMain-item-name {
+  display: block;
+  height: 43px;
+  padding: 0 18px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+  font: 20px/43px 'Fira Mono', sans-serif;
+}
+.menuMain-item-name:hover {
+  color: #333;
+  text-decoration: none;
 }
